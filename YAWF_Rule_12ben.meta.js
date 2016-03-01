@@ -17,7 +17,7 @@
 // @homepageURL https://github.com/weibo-list-12ben/list
 // @downloadURL https://raw.githubusercontent.com/weibo-list-12ben/list/master/YAWF_Rule_12ben.user.js
 // @updateURL   https://raw.githubusercontent.com/weibo-list-12ben/list/master/YAWF_Rule_12ben.meta.js
-// @version     2016.03.01.1
+// @version     2016.03.01.2
 // @grant       GM_info
 // @grant       unsafeWindow
 // @run-at      document-start
