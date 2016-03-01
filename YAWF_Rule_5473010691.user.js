@@ -14,10 +14,10 @@
 // @exclude     http://weibo.com/a/bind/*
 // @exclude     http://weibo.com/nguide/interests
 // @require     https://tiansh.github.io/yawf-rules/YAWF_Rule_Base.js
-// @homepageURL https://tiansh.github.io/yawf-rules/5473010691/
-// @downloadURL https://tiansh.github.io/yawf-rules/5473010691/YAWF_Rule_5473010691.user.js
-// @updateURL   https://tiansh.github.io/yawf-rules/5473010691/YAWF_Rule_5473010691.meta.js
-// @version     2016.02.29.1
+// @homepageURL https://github.com/weibo-list-12ben/list
+// @downloadURL https://raw.githubusercontent.com/weibo-list-12ben/list/master/YAWF_Rule_12ben.user.js
+// @updateURL   https://raw.githubusercontent.com/weibo-list-12ben/list/master/YAWF_Rule_12ben.meta.js
+// @version     2016.03.01.1
 // @grant       GM_info
 // @grant       unsafeWindow
 // @run-at      document-start
@@ -158,7 +158,7 @@ __YAWF_WeiboSubscribeRuleList__({
   'author': '黑名单由 <a href="http://weibo.com/u/1146215435">@12ben</a> 整理及维护',
   'description': '转发有好远鬼才信',
   'date': '2016-03-01',
-  'homepage': 'https://tiansh.github.io/yawf-rules/5473010691/',
+  'homepage': 'https://github.com/weibo-list-12ben/list',
   'rules': {
     'original.blacklist': userlist.map(function (x) { return x[0]; }),
     'mention.blacklist': userlist.map(function (x) { return x[1]; }),
