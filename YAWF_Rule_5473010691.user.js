@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        YAWF Rule 5473010691
+// @name        YAWF Rule 12ben
 // @name:zh     无聊微博取关吧
 // @name:zh-CN  无聊微博取关吧
 // @name:en     No jabberwocky
@@ -24,7 +24,7 @@
 // ==/UserScript==
 
 var userlist = [
-  ["1003273015", "漫趣"],
+  ["81824985", "这里是日本"],
   ["1582894780", "钙片叔"],
   ["1583124707", "我的极品评论"],
   ["1642635773", "我们爱讲冷笑话"],
@@ -153,11 +153,11 @@ var userlist = [
 
 __YAWF_WeiboSubscribeRuleList__({
   'id': '{82f42250-7be6-48c1-9381-59f50f24820f}',
-  'name': '@Miss_Donuts 营销号黑名单',
+  'name': '无聊微博取关吧',
   'icon': 'data:image/png;base64,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',
-  'author': '黑名单由 <a href="http://weibo.com/u/5473010691">@Miss_Donuts</a> 整理及维护',
-  'description': '微博营销号黑名单，针对盗图/盗梗营销号',
-  'date': '2015-07-26',
+  'author': '黑名单由 <a href="http://weibo.com/u/1146215435">@12ben</a> 整理及维护',
+  'description': '转发有好远鬼才信',
+  'date': '2016-03-01',
   'homepage': 'https://tiansh.github.io/yawf-rules/5473010691/',
   'rules': {
     'original.blacklist': userlist.map(function (x) { return x[0]; }),
